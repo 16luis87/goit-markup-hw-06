@@ -735,7 +735,9 @@ button:hover{
     cursor: pointer;
 }
 
-.icon icon-Vector-enviar {
+/* no se aplican los estilos al icono svg*/
+.icon__enviar {
+    display: inline-block;
     width: 24px;
     height: 24px;
 }
@@ -916,11 +918,16 @@ button:hover{
 
 }
 
+.labelformulary:hover {
+    outline: none;
+}
+
  .datesformulary {
     width: 448px;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    
 
  }
 
