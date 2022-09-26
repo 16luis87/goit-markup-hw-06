@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio</title>
+    <!--estos links son referentes a la fuente de texto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!--CDN font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+          integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="container">
+    <header class="header">
+        <div class="menu">
+            <p class="logo">WebStudio</p>
+            <nav>
+                <a class="linkHeader" href="index.html">Estudio</a>
+                <a class="linkHeader" href="portafolio.html">Portafolio</a>
+                <a class="linkHeader" href="Contacto.html">Contacto</a>
+            </nav>
+            <div class="datoscontacto">
+                <div class="mail">
+                    <svg class="icon icon-sobre"><use xlink:href="imagenesicons/icons.svg#icon-sobre"></use></svg>
+                    <a class="Headerdatescontact" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </div>
+                <div class="phone">
+                    <svg class="icon icon-Vector"><use xlink:href="imagenesicons/icons.svg#icon-Vector"></use></svg>
+                    <a class="Headerdatescontact" href="tel:+525555296000">+52 55 5529 6000</a>
+                </div>
+            </div>
+        </div>       
+    </header>
+    <main class="contactbody">
+        <form class="formulary">
+            <h3 class="titleformulary">Deje sus datos, nos contactaremos con usted</h3>
+            <label class="labelformulary">
+                Nombre<br>
+                <input class="datesformulary" type="text" name="username" placeholder="" autofocus />
+            </label>
+            <label class="labelformulary">
+                Teléfono<br>
+                <input class="datesformulary" type="tel" name="phone_number" placeholder="" />
+            </label>
+            <label class="labelformulary">
+                E-mail<br>
+                <input class="datesformulary" type="email" name="email" placeholder=""/>
+            </label>
+            <label class="labelformulary">
+                Comentarios<br>
+                <textarea class="coments" name="feedback" rows="5" placeholder="Introduzca el texto"></textarea>
+            </label>
+            <label class="TerminosYCondiciones">
+                <input type="checkbox" name="hobby" value="reading" />
+                Estoy de acuerdo con el boletín informativo y acepto los Términos y condicones
+            </label>
+            <button class="buttonformulary" type="submit">Enviar</button>
+        </form>
+    </main>
+    <footer class="footerBox">
+        <div class="footer">
+            <div>
+                <p class="logo">WebStudio</p>
+                <div class="adress">
+                    <address>Calz. Ticomán 500, Ciudad de México, CDMX, México</address>
+                </div>
+                <a class="linkFooter" href="mailto:info@example.com">info@devstudio.com</a>
+                <br/>
+                <a class="linkFooter" href="tel:+525555296000">+52 55 5529 6000</a>
+            </div>
+            <div class="footerDates">
+                <p class="titleFooter">ENCUENTRANOS EN</p>
+                <div class="iconsRedesSociales">
+                    <div class="redes-footer">
+                        <svg class="icon icon-instagram"><use xlink:href="imagenesicons/icons.svg#icon-instagram"></use></svg>
+                    </div>
+                    <div class="redes-footer">
+                        <svg class="icon icon-twitter"><use xlink:href="imagenesicons/icons.svg#icon-twitter"></use></svg>
+                    </div>
+                    <div class="redes-footer">
+                        <svg class="icon icon-facebook"><use xlink:href="imagenesicons/icons.svg#icon-facebook"></use></svg>
+                    </div>
+                    <div class="redes-footer">
+                        <svg class="icon icon-linkedin2"><use xlink:href="imagenesicons/icons.svg#icon-linkedin2"></use></svg>
+                    </div>
+                </div>
+            </div>
+            <div class="footerDates">
+                <p class="titleFooter">SUSCRÍBASE AL BOLETÍN INFORMATIVO</p>
+                <div class="subscriptionFormulary">
+                    <form>
+                        <label>
+                            <input class="email" type="email" name="email" placeholder="Correo electrónico">
+                        </label>
+                    </form>
+                    <button type="button" class="link2">
+                        <span>Suscríbase</span>
+                        <svg class="icon icon-Vector-enviar">
+                            <use xlink:href="imagenesicons/formularyicons.svg#icon-Vector-enviar"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    
+</html>
